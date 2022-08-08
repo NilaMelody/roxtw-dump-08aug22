@@ -1,0 +1,5493 @@
+local table = {
+	[1001] = {
+		["attr"] = {
+			{
+				["id"] = 10,
+				["val"] = 50,
+			},
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+			{
+				["id"] = 40,
+				["val"] = 2,
+			},
+		},
+		["attrFormula"] = 3,
+		["id"] = 1001,
+		["shadowequip"] = {
+			1001,
+		},
+		["skill"] = {
+			{
+				["id"] = 30093102,
+				["skilllevel"] = 1,
+			},
+			{
+				["id"] = 30093101,
+				["skilllevel"] = 1,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 30093102,
+				["index"] = 1,
+				["skilllevel"] = 1,
+			},
+		},
+		["switchJob"] = 0,
+	},
+	[1002] = {
+		["attr"] = {
+			{
+				["id"] = 10,
+				["val"] = 50,
+			},
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+			{
+				["id"] = 40,
+				["val"] = 2,
+			},
+		},
+		["attrFormula"] = 3,
+		["id"] = 1002,
+		["shadowequip"] = {
+			1001,
+		},
+		["skill"] = {
+			{
+				["id"] = 30092102,
+				["skilllevel"] = 1,
+			},
+			{
+				["id"] = 30092101,
+				["skilllevel"] = 1,
+			},
+			{
+				["id"] = 30092112,
+				["skilllevel"] = 1,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 30092102,
+				["index"] = 1,
+				["skilllevel"] = 1,
+			},
+		},
+		["switchJob"] = 0,
+	},
+	[1003] = {
+		["attr"] = {
+			{
+				["id"] = 10,
+				["val"] = 50,
+			},
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+			{
+				["id"] = 40,
+				["val"] = 2,
+			},
+		},
+		["attrFormula"] = 3,
+		["id"] = 1003,
+		["shadowequip"] = {
+			1001,
+		},
+		["skill"] = {
+			{
+				["id"] = 30094102,
+				["skilllevel"] = 1,
+			},
+			{
+				["id"] = 30094101,
+				["skilllevel"] = 1,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 30094102,
+				["index"] = 1,
+				["skilllevel"] = 1,
+			},
+		},
+		["switchJob"] = 0,
+	},
+	[1010] = {
+		["attr"] = {
+			{
+				["id"] = 10,
+				["val"] = 50,
+			},
+			{
+				["id"] = 32,
+				["val"] = 100,
+			},
+		},
+		["attrFormula"] = 3,
+		["equip"] = {
+			{
+				["enchantments"] = {},
+				["equipId"] = 2405097,
+				["refineLevel"] = 0,
+				["slot"] = 12,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {},
+				["equipId"] = 4107088,
+				["refineLevel"] = 0,
+				["slot"] = 10,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 1010,
+		["skill"] = {
+			{
+				["id"] = 30095101,
+				["skilllevel"] = 1,
+			},
+			{
+				["id"] = 30095102,
+				["skilllevel"] = 1,
+			},
+			{
+				["id"] = 30095103,
+				["skilllevel"] = 1,
+			},
+			{
+				["id"] = 30095104,
+				["skilllevel"] = 1,
+			},
+			{
+				["id"] = 30095105,
+				["skilllevel"] = 1,
+			},
+			{
+				["id"] = 30092101,
+				["skilllevel"] = 1,
+			},
+			{
+				["id"] = 4002000,
+				["skilllevel"] = 1,
+			},
+			{
+				["id"] = 30095112,
+				["skilllevel"] = 1,
+			},
+			{
+				["id"] = 30095106,
+				["skilllevel"] = 1,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 30095102,
+				["index"] = 1,
+				["skilllevel"] = 1,
+			},
+			{
+				["id"] = 30095103,
+				["index"] = 2,
+				["skilllevel"] = 1,
+			},
+			{
+				["id"] = 30095104,
+				["index"] = 3,
+				["skilllevel"] = 1,
+			},
+			{
+				["id"] = 30095105,
+				["index"] = 4,
+				["skilllevel"] = 1,
+			},
+		},
+		["switchJob"] = 0,
+	},
+	[10000] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1301061,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101042,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102030,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103030,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201191,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10000,
+		["job"] = 1112,
+		["mountId"] = 80103,
+		["skill"] = {
+			{
+				["id"] = 1111124,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110128,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1111121,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112012,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112003,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110134,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110123,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112010,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110135,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110129,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110132,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1100129,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1111124,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110128,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1111121,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112004,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112012,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112003,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110134,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110123,
+				["index"] = 8,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10001] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {},
+				["equipId"] = 4103003,
+				["refineLevel"] = 0,
+				["slot"] = 9,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1303059,
+				["refineLevel"] = 1,
+				["slot"] = 0,
+				["strengthenLevel"] = 1,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101042,
+				["refineLevel"] = 1,
+				["slot"] = 2,
+				["strengthenLevel"] = 1,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102030,
+				["refineLevel"] = 1,
+				["slot"] = 3,
+				["strengthenLevel"] = 1,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103030,
+				["refineLevel"] = 1,
+				["slot"] = 4,
+				["strengthenLevel"] = 1,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 1,
+				["slot"] = 5,
+				["strengthenLevel"] = 1,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 1,
+				["slot"] = 6,
+				["strengthenLevel"] = 1,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201194,
+				["refineLevel"] = 1,
+				["slot"] = 13,
+				["strengthenLevel"] = 1,
+			},
+		},
+		["id"] = 10001,
+		["job"] = 1112,
+		["mountId"] = 80103,
+		["skill"] = {
+			{
+				["id"] = 1110128,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1111122,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1111123,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110126,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110124,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110123,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110130,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110129,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110132,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110131,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112001,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1110128,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1111122,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1111123,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110126,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112009,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110124,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110123,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110130,
+				["index"] = 8,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10002] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1010101003,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1010101003,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1010101003,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1101060,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1010101003,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1010101003,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1010101003,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1201147,
+				["refineLevel"] = 0,
+				["slot"] = 1,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101042,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102030,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103030,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1210301003,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101218,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101218,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201191,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10002,
+		["job"] = 1112,
+		["mountId"] = 80103,
+		["skill"] = {
+			{
+				["id"] = 1110134,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1111131,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112006,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110121,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110128,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112005,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1111123,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110129,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110132,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112007,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1111132,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110135,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1100129,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112001,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1110134,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1111131,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112004,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112006,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110121,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1110128,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1112005,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1111123,
+				["index"] = 8,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10003] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1301061,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101042,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102030,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103030,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201191,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10003,
+		["job"] = 1122,
+		["mountId"] = 80105,
+		["skill"] = {
+			{
+				["id"] = 1120011,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121011,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121012,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122012,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122003,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122010,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1120012,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1120010,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121010,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1120001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121003,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1120003,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1120011,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121011,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121012,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122012,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122002,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122003,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1120012,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10004] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1303059,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101042,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102030,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103030,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201191,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10004,
+		["job"] = 1122,
+		["mountId"] = 80105,
+		["skill"] = {
+			{
+				["id"] = 1120005,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122005,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121005,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121006,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122003,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1120004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1120001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121003,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1120003,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1120005,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122005,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122004,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121005,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121006,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122002,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122003,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121002,
+				["index"] = 8,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10005] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1010101003,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1010101003,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1010101003,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1101060,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1010101003,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1010101003,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1010101003,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1201038,
+				["refineLevel"] = 0,
+				["slot"] = 1,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101042,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102030,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103030,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1210301003,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101218,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101218,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201191,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10005,
+		["job"] = 1122,
+		["mountId"] = 80105,
+		["skill"] = {
+			{
+				["id"] = 1120007,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1120008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122003,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1120009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122007,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121007,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1120001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121003,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122006,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1120003,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1120007,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1120008,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122009,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121009,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121008,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122003,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1121002,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1122002,
+				["index"] = 8,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10006] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1306059,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101123,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102095,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103095,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101217,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101217,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101002,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201195,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10006,
+		["job"] = 1312,
+		["skill"] = {
+			{
+				["id"] = 1311121,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1300129,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1311124,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1310128,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1300124,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1310132,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312005,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312006,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312014,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1311134,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1300127,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1311126,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1311132,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1311121,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312001,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312002,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1300129,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1311124,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1310128,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1300124,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1310132,
+				["index"] = 8,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10007] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1103058,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1201038,
+				["refineLevel"] = 0,
+				["slot"] = 1,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101123,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102095,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103095,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101217,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101217,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101002,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201195,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10007,
+		["job"] = 1312,
+		["skill"] = {
+			{
+				["id"] = 1311122,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1311133,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1300122,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1310122,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312007,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312011,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1310132,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1300121,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1311125,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1300127,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1311126,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312005,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312006,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1311122,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1311133,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1300122,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1310122,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312007,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1312011,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1310132,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1300121,
+				["index"] = 8,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10008] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1102060,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1201038,
+				["refineLevel"] = 0,
+				["slot"] = 1,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101042,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102030,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103030,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201194,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10008,
+		["job"] = 1612,
+		["mountId"] = 80106,
+		["pendantId"] = 83010,
+		["skill"] = {
+			{
+				["id"] = 1611008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610006,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611007,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612003,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612010,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611005,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611006,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610012,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1600004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612996,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611998,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611999,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611997,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1611008,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612001,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610006,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611997,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612003,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612010,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611998,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10009] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1302059,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101042,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102030,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103030,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201194,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10009,
+		["job"] = 1612,
+		["mountId"] = 80106,
+		["pendantId"] = 83010,
+		["skill"] = {
+			{
+				["id"] = 1612006,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612007,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612012,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612010,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612011,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611005,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611007,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612013,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611006,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611010,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1600008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1600003,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610012,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1600004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612996,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611998,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611997,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1612006,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612001,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612007,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612996,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612010,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611998,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611997,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1600008,
+				["index"] = 8,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10010] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1104058,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1201038,
+				["refineLevel"] = 0,
+				["slot"] = 1,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101042,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102030,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103030,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201194,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10010,
+		["job"] = 1612,
+		["mountId"] = 80106,
+		["pendantId"] = 83010,
+		["skill"] = {
+			{
+				["id"] = 1611003,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610010,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610006,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1600009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612012,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611007,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611010,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1600007,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1600003,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610012,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612013,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611006,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1600004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612003,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612996,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611998,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611997,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1600999,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1611003,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610010,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1610006,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611008,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1600999,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1612996,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1611997,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10011] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1104058,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1201038,
+				["refineLevel"] = 0,
+				["slot"] = 1,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101123,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102095,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103095,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201194,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10011,
+		["job"] = 1212,
+		["skill"] = {
+			{
+				["id"] = 1200126,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211136,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211135,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210138,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1212012,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200128,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210133,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200126,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1212011,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1212008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1212009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210135,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200124,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211121,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200123,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210123,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1212013,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200128,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1200126,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211136,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211135,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1212012,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210133,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200126,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10012] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1103058,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1201038,
+				["refineLevel"] = 0,
+				["slot"] = 1,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101123,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102095,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103095,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101217,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101002,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101217,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201195,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10012,
+		["job"] = 1212,
+		["skill"] = {
+			{
+				["id"] = 1200126,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211123,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211133,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1212006,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1212007,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200126,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211124,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211122,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1212008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1212009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1212004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211121,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210135,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210136,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200128,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1200126,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211123,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211133,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1212006,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1212007,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200126,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211124,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211122,
+				["index"] = 8,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10013] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101008,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1107034,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101123,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102095,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103095,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101218,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101218,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201195,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10013,
+		["job"] = 1212,
+		["skill"] = {
+			{
+				["id"] = 1210121,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210133,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200126,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1212004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210128,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211122,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210124,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210133,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1212004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1212006,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211121,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200122,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210135,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200128,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1210121,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210133,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200126,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210128,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1211122,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210124,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210133,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10014] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1309071,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101123,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102095,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103095,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201191,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10014,
+		["job"] = 1222,
+		["skill"] = {
+			{
+				["id"] = 1221005,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210133,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200126,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220006,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200128,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220009,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1221005,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221001,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222002,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221002,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222004,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220004,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210133,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200126,
+				["index"] = 8,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10015] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810102009,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810102009,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1309071,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101123,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102095,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103095,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101220,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101220,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201191,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10015,
+		["job"] = 1222,
+		["skill"] = {
+			{
+				["id"] = 1222008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210133,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200126,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220006,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220009,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1222008,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222002,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221002,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222004,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220004,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1210133,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1200126,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10016] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1308071,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101123,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102095,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103095,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201194,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10016,
+		["job"] = 1222,
+		["skill"] = {
+			{
+				["id"] = 1222010,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220010,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220012,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222012,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220013,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221012,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222009,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1222010,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221002,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220010,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222002,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220012,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221009,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220004,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222012,
+				["index"] = 8,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10017] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810102009,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810102009,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1308071,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101123,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102095,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103095,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101220,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101220,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201194,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10017,
+		["job"] = 1222,
+		["skill"] = {
+			{
+				["id"] = 1222010,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220010,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220012,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222012,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220013,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221012,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221004,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222009,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1222010,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221002,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220010,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222002,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220012,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1221009,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1220004,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1222012,
+				["index"] = 8,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10018] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["attrFormula"] = 4,
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101007,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101007,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1305058,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101122,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102094,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103095,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101216,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101216,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201191,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10018,
+		["job"] = 1512,
+		["mountId"] = 80104,
+		["pendantId"] = 83001,
+		["skill"] = {
+			{
+				["id"] = 1510133,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500130,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511124,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500126,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512003,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500122,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511134,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511133,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511123,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500123,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1510122,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1510124,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500124,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1510133,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511124,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512009,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500126,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512002,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512003,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500122,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10019] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["attrFormula"] = 4,
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1305043,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101123,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102095,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103095,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101217,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101217,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201194,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10019,
+		["job"] = 1512,
+		["mountId"] = 80104,
+		["pendantId"] = 83001,
+		["skill"] = {
+			{
+				["id"] = 1512009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500130,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500126,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511134,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511133,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511123,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500123,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1510122,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1510124,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500124,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1512009,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512002,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500126,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10020] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["attrFormula"] = 4,
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101007,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101007,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1307058,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101123,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102095,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103095,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101216,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101216,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201194,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10020,
+		["job"] = 1512,
+		["mountId"] = 80104,
+		["pendantId"] = 83001,
+		["skill"] = {
+			{
+				["id"] = 1512009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500130,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511128,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511131,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512003,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500126,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500122,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511134,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511133,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511123,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500123,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1510122,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1510124,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500124,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1512009,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511128,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511131,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512003,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512002,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500126,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500122,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10021] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["attrFormula"] = 4,
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1305043,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101008,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101123,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102095,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103095,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101220,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101220,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201194,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10021,
+		["job"] = 1512,
+		["mountId"] = 80104,
+		["pendantId"] = 83001,
+		["skill"] = {
+			{
+				["id"] = 1512009,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500130,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511128,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511131,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512003,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500126,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500122,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511134,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511133,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511123,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500123,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1510122,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1510124,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512008,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500124,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1512009,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511128,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1511131,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512003,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1512002,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500126,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1500122,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10022] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1304059,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101122,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102094,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103095,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201191,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10022,
+		["job"] = 1412,
+		["skill"] = {
+			{
+				["id"] = 1410133,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410125,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1412006,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410128,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1400125,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1412005,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1411133,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1412010,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410124,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1411121,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410136,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1411125,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410135,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1412001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1412002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1412007,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410123,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1410133,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410125,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1412006,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410128,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1400125,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1412005,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1411133,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1412010,
+				["index"] = 8,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10023] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["equip"] = {
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1210101005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1105058,
+				["refineLevel"] = 0,
+				["slot"] = 0,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 1105058,
+				["refineLevel"] = 0,
+				["slot"] = 1,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2101123,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2102095,
+				["refineLevel"] = 0,
+				["slot"] = 3,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201007,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 2103095,
+				["refineLevel"] = 0,
+				["slot"] = 4,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810101001,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 5,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201006,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3101215,
+				["refineLevel"] = 0,
+				["slot"] = 6,
+				["strengthenLevel"] = 0,
+			},
+			{
+				["enchantments"] = {
+					{
+						["id"] = 1810201005,
+						["level"] = 1,
+					},
+				},
+				["equipId"] = 3201194,
+				["refineLevel"] = 0,
+				["slot"] = 13,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10023,
+		["job"] = 1412,
+		["skill"] = {
+			{
+				["id"] = 1410133,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1411122,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410129,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1411133,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1400125,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1411132,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1412005,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410128,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410121,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410122,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1400121,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410134,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410136,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1411125,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410135,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1412001,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1412002,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1412007,
+				["skilllevel"] = 10,
+			},
+		},
+		["skillSlot"] = {
+			{
+				["id"] = 1410133,
+				["index"] = 1,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1411122,
+				["index"] = 2,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410129,
+				["index"] = 3,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1411133,
+				["index"] = 4,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1400125,
+				["index"] = 5,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1411132,
+				["index"] = 6,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1412005,
+				["index"] = 7,
+				["skilllevel"] = 10,
+			},
+			{
+				["id"] = 1410128,
+				["index"] = 8,
+				["skilllevel"] = 10,
+			},
+		},
+	},
+	[10024] = {
+		["attr"] = {
+			{
+				["id"] = 32,
+				["val"] = 10000,
+			},
+		},
+		["attrFormula"] = 0,
+		["equip"] = {
+			{
+				["enchantments"] = {},
+				["equipId"] = 2109999,
+				["refineLevel"] = 0,
+				["slot"] = 2,
+				["strengthenLevel"] = 0,
+			},
+		},
+		["id"] = 10024,
+		["job"] = 1000,
+		["skill"] = {},
+		["skillSlot"] = {},
+	},
+}
+local baseTable = 
+{
+	["attrFormula"] = 5,
+	["awakenAttr"] = 0,
+	["battleachAttr"] = 0,
+	["clothAttr"] = 0,
+	["equip"] = {},
+	["job"] = 1200,
+	["mountId"] = 0,
+	["pendantId"] = 0,
+	["petAttr"] = 0,
+	["shadowEquipAttr"] = 0,
+	["shadowequip"] = {},
+	["sociatyAttr"] = 0,
+	["switchJob"] = 1,
+	["titleAttr"] = 0,
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

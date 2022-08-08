@@ -1,0 +1,30 @@
+local table = {
+	[2] = {
+		["minY"] = -60,
+		["shootType"] = 2,
+	},
+	[3] = {
+		["shootType"] = 3,
+	},
+	[4] = {
+		["shootType"] = 4,
+		["uiName"] = "UI_SkillShoot",
+	},
+	[12] = {
+		["minY"] = -40,
+		["shootType"] = 12,
+		["uiName"] = "UI_GiantCanon",
+	},
+}
+local baseTable = 
+{
+	["maxX"] = 999,
+	["maxY"] = 70,
+	["minX"] = -999,
+	["minY"] = -50,
+	["uiName"] = "UI_ChristmasMagic",
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

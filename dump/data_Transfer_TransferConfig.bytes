@@ -1,0 +1,61 @@
+local table = {
+	[1001] = {
+		["cameraPivotOffsetY"] = 12,
+		["carrierList"] = {
+			0,
+		},
+		["character"] = 30093,
+		["gaintIcon"] = 30093,
+		["id"] = 1001,
+		["normalAttackSkill"] = 30093101,
+		["planid"] = 1001,
+	},
+	[1002] = {
+		["carrierList"] = {
+			0,
+		},
+		["character"] = 30092,
+		["gaintIcon"] = 30092,
+		["id"] = 1002,
+		["normalAttackSkill"] = 30092101,
+		["planid"] = 1002,
+	},
+	[1003] = {
+		["carrierList"] = {
+			0,
+		},
+		["character"] = 30094,
+		["gaintIcon"] = 30094,
+		["id"] = 1003,
+		["normalAttackSkill"] = 30094101,
+		["planid"] = 1003,
+	},
+	[1010] = {
+		["attackIcon"] = 995,
+		["cameraPivotOffsetY"] = 2,
+		["carrierList"] = {
+			817001,
+			817002,
+		},
+		["character"] = 0,
+		["farClip"] = 0,
+		["gaintIcon"] = 0,
+		["id"] = 1010,
+		["normalAttackSkill"] = 30095101,
+		["planid"] = 1010,
+	},
+}
+local baseTable = 
+{
+	["attackIcon"] = 999,
+	["cameraPivotOffsetY"] = 6,
+	["farClip"] = 10,
+	["functionlist"] = 0,
+	["job"] = 1000,
+	["nearClip"] = 0,
+	["type"] = 1,
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

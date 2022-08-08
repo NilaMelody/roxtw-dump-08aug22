@@ -1,0 +1,161 @@
+local table = {
+	[1] = {
+		["dropId"] = 109000504,
+		["id"] = 1,
+		["name"] = "worldKVM2_rule_020C",
+		["stageId"] = {
+			0,
+		},
+		["type"] = 2,
+	},
+	[2] = {
+		["dropId"] = 109000501,
+		["id"] = 2,
+		["name"] = "worldKVM2_rule_020E",
+		["stageId"] = {
+			0,
+		},
+		["type"] = 2,
+	},
+	[3] = {
+		["dropId"] = 109000502,
+		["id"] = 3,
+		["name"] = "worldKVM2_rule_020G",
+		["stageId"] = {
+			0,
+		},
+		["type"] = 2,
+	},
+	[4] = {
+		["dropId"] = 109000503,
+		["id"] = 4,
+		["name"] = "worldKVM2_rule_020I",
+		["stageId"] = {
+			0,
+		},
+		["type"] = 2,
+	},
+	[5] = {
+		["dropId"] = 109000511,
+		["id"] = 5,
+		["name"] = "worldKVM2_rule_045",
+		["stageId"] = {
+			3,
+		},
+		["type"] = 3,
+	},
+	[6] = {
+		["dropId"] = 109000512,
+		["id"] = 6,
+		["name"] = "worldKVM2_rule_046",
+		["stageId"] = {
+			4,
+		},
+		["type"] = 3,
+	},
+	[7] = {
+		["dropId"] = 109000513,
+		["id"] = 7,
+		["name"] = "worldKVM2_rule_047",
+		["stageId"] = {
+			5,
+		},
+		["type"] = 3,
+	},
+	[8] = {
+		["dropId"] = 109000521,
+		["id"] = 8,
+		["name"] = "worldKVM2_rule_048",
+		["stageId"] = {
+			7,
+		},
+	},
+	[9] = {
+		["dropId"] = 109000526,
+		["id"] = 9,
+		["name"] = "worldKVM2_rule_049",
+		["stageId"] = {
+			8,
+		},
+	},
+	[10] = {
+		["dropId"] = 109000522,
+		["id"] = 10,
+		["name"] = "worldKVM2_rule_050",
+		["stageId"] = {
+			9,
+		},
+	},
+	[11] = {
+		["dropId"] = 109000523,
+		["id"] = 11,
+		["name"] = "worldKVM2_rule_051",
+		["stageId"] = {
+			10,
+			11,
+			12,
+			13,
+		},
+	},
+	[12] = {
+		["dropId"] = 109000524,
+		["id"] = 12,
+		["name"] = "worldKVM2_rule_052",
+		["stageId"] = {
+			14,
+			15,
+		},
+	},
+	[13] = {
+		["dropId"] = 109000525,
+		["id"] = 13,
+		["name"] = "worldKVM2_rule_053",
+		["stageId"] = {
+			16,
+		},
+	},
+	[14] = {
+		["dropId"] = 109000531,
+		["id"] = 14,
+		["name"] = "worldKVM2_rule_054",
+		["stageId"] = {
+			0,
+		},
+		["type"] = 9,
+	},
+	[15] = {
+		["dropId"] = 109000532,
+		["id"] = 15,
+		["name"] = "worldKVM2_rule_055",
+		["stageId"] = {
+			0,
+		},
+		["type"] = 9,
+	},
+	[16] = {
+		["dropId"] = 109000533,
+		["id"] = 16,
+		["name"] = "worldKVM2_rule_056",
+		["stageId"] = {
+			0,
+		},
+		["type"] = 9,
+	},
+	[17] = {
+		["dropId"] = 109000534,
+		["id"] = 17,
+		["name"] = "worldKVM2_rule_057",
+		["stageId"] = {
+			0,
+		},
+		["type"] = 9,
+	},
+}
+local baseTable = 
+{
+	["type"] = 5,
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

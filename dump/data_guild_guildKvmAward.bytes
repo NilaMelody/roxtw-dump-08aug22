@@ -1,0 +1,456 @@
+local table = {
+	[1] = {
+		["amount"] = {
+			256,
+		},
+		["id"] = 1,
+		["ifCrossService"] = 0,
+		["staticId"] = {
+			10204188,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[2] = {
+		["amount"] = {
+			224,
+		},
+		["id"] = 2,
+		["ifCrossService"] = 0,
+		["rank"] = 2,
+		["staticId"] = {
+			10204188,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[3] = {
+		["amount"] = {
+			192,
+		},
+		["id"] = 3,
+		["ifCrossService"] = 0,
+		["rank"] = 3,
+		["staticId"] = {
+			10204188,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[4] = {
+		["amount"] = {
+			160,
+		},
+		["id"] = 4,
+		["ifCrossService"] = 0,
+		["rank"] = 10,
+		["staticId"] = {
+			10204188,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[5] = {
+		["amount"] = {
+			128,
+		},
+		["id"] = 5,
+		["ifCrossService"] = 0,
+		["rank"] = 30,
+		["staticId"] = {
+			10204188,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[6] = {
+		["amount"] = {
+			96,
+		},
+		["id"] = 6,
+		["ifCrossService"] = 0,
+		["rank"] = 60,
+		["staticId"] = {
+			10204188,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[7] = {
+		["amount"] = {
+			64,
+		},
+		["id"] = 7,
+		["ifCrossService"] = 0,
+		["rank"] = 100,
+		["staticId"] = {
+			10204188,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[8] = {
+		["amount"] = {
+			32,
+		},
+		["id"] = 8,
+		["ifCrossService"] = 0,
+		["rank"] = 999,
+		["staticId"] = {
+			10204188,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[9] = {
+		["amount"] = {
+			64,
+		},
+		["id"] = 9,
+		["ifCrossService"] = 0,
+		["ranktype"] = 2,
+		["staticId"] = {
+			10204188,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[10] = {
+		["amount"] = {
+			56,
+		},
+		["id"] = 10,
+		["ifCrossService"] = 0,
+		["rank"] = 2,
+		["ranktype"] = 2,
+		["staticId"] = {
+			10204188,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[11] = {
+		["amount"] = {
+			48,
+		},
+		["id"] = 11,
+		["ifCrossService"] = 0,
+		["rank"] = 3,
+		["ranktype"] = 2,
+		["staticId"] = {
+			10204188,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[12] = {
+		["amount"] = {
+			40,
+		},
+		["id"] = 12,
+		["ifCrossService"] = 0,
+		["rank"] = 10,
+		["ranktype"] = 2,
+		["staticId"] = {
+			10204188,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[13] = {
+		["amount"] = {
+			32,
+		},
+		["id"] = 13,
+		["ifCrossService"] = 0,
+		["rank"] = 30,
+		["ranktype"] = 2,
+		["staticId"] = {
+			10204188,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[14] = {
+		["amount"] = {
+			24,
+		},
+		["id"] = 14,
+		["ifCrossService"] = 0,
+		["rank"] = 60,
+		["ranktype"] = 2,
+		["staticId"] = {
+			10204188,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[15] = {
+		["amount"] = {
+			16,
+		},
+		["id"] = 15,
+		["ifCrossService"] = 0,
+		["rank"] = 100,
+		["ranktype"] = 2,
+		["staticId"] = {
+			10204188,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[16] = {
+		["amount"] = {
+			8,
+		},
+		["id"] = 16,
+		["ifCrossService"] = 0,
+		["rank"] = 999,
+		["ranktype"] = 2,
+		["staticId"] = {
+			10204188,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[17] = {
+		["amount"] = {
+			256,
+		},
+		["id"] = 17,
+		["staticId"] = {
+			10204208,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[18] = {
+		["amount"] = {
+			224,
+		},
+		["id"] = 18,
+		["rank"] = 2,
+		["staticId"] = {
+			10204208,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[19] = {
+		["amount"] = {
+			192,
+		},
+		["id"] = 19,
+		["rank"] = 3,
+		["staticId"] = {
+			10204208,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[20] = {
+		["amount"] = {
+			160,
+		},
+		["id"] = 20,
+		["rank"] = 10,
+		["staticId"] = {
+			10204208,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[21] = {
+		["amount"] = {
+			128,
+		},
+		["id"] = 21,
+		["rank"] = 30,
+		["staticId"] = {
+			10204208,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[22] = {
+		["amount"] = {
+			96,
+		},
+		["id"] = 22,
+		["rank"] = 60,
+		["staticId"] = {
+			10204208,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[23] = {
+		["amount"] = {
+			64,
+		},
+		["id"] = 23,
+		["rank"] = 100,
+		["staticId"] = {
+			10204208,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[24] = {
+		["amount"] = {
+			32,
+		},
+		["id"] = 24,
+		["rank"] = 999,
+		["staticId"] = {
+			10204208,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[25] = {
+		["amount"] = {
+			64,
+		},
+		["id"] = 25,
+		["ranktype"] = 2,
+		["staticId"] = {
+			10204208,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[26] = {
+		["amount"] = {
+			56,
+		},
+		["id"] = 26,
+		["rank"] = 2,
+		["ranktype"] = 2,
+		["staticId"] = {
+			10204208,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[27] = {
+		["amount"] = {
+			48,
+		},
+		["id"] = 27,
+		["rank"] = 3,
+		["ranktype"] = 2,
+		["staticId"] = {
+			10204208,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[28] = {
+		["amount"] = {
+			40,
+		},
+		["id"] = 28,
+		["rank"] = 10,
+		["ranktype"] = 2,
+		["staticId"] = {
+			10204208,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[29] = {
+		["amount"] = {
+			32,
+		},
+		["id"] = 29,
+		["rank"] = 30,
+		["ranktype"] = 2,
+		["staticId"] = {
+			10204208,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[30] = {
+		["amount"] = {
+			24,
+		},
+		["id"] = 30,
+		["rank"] = 60,
+		["ranktype"] = 2,
+		["staticId"] = {
+			10204208,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[31] = {
+		["amount"] = {
+			16,
+		},
+		["id"] = 31,
+		["rank"] = 100,
+		["ranktype"] = 2,
+		["staticId"] = {
+			10204208,
+		},
+		["type"] = {
+			5,
+		},
+	},
+	[32] = {
+		["amount"] = {
+			8,
+		},
+		["id"] = 32,
+		["rank"] = 999,
+		["ranktype"] = 2,
+		["staticId"] = {
+			10204208,
+		},
+		["type"] = {
+			5,
+		},
+	},
+}
+local baseTable = 
+{
+	["ifCrossService"] = 1,
+	["rank"] = 1,
+	["ranktype"] = 1,
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

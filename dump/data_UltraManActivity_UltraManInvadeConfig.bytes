@@ -1,0 +1,19 @@
+return
+{
+    ["bossId"]=31001,
+    ["endTime"]=70200,
+    ["rankDrop"]="27000,27001,27002,27003,27004",
+    ["rankPos"]="1,2,3,5,10",
+    ["sceneIds"]=5600,
+    ["scoreForDropNpc"]=500,
+    ["scoreForFirstReach"]=10000,
+    ["scoreItem"]=10803090,
+    ["scorePerItem"]=10,
+    ["settleMailId"]=2505,
+    ["startTime"]=68400,
+    ["ultraManBuff"]=10001,
+    ["ultraManBuffLastTime"]=120,
+    ["ultraManBuffNpc"]=61268,
+    ["ultraManBuffTimelineId"]=1001,
+    ["ultraManNpcAreas"]="5600101,5600102,5600103,5600104,5600105,5600106,5600107,5600108"
+}

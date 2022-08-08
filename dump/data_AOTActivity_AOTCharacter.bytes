@@ -1,0 +1,48 @@
+local table = {
+	[1] = {
+		["id"] = 1,
+		["name"] = "AOT_name_1",
+		["resId"] = 1,
+		["skill"] = {
+			30095101,
+			30095102,
+			30095103,
+			30095104,
+			30095105,
+		},
+		["tag"] = "AOT_tag_1",
+	},
+	[2] = {
+		["id"] = 2,
+		["name"] = "AOT_name_2",
+		["resId"] = 2,
+		["skill"] = {
+			30092102,
+		},
+		["tag"] = "AOT_tag_2",
+	},
+	[3] = {
+		["id"] = 3,
+		["name"] = "AOT_name_3",
+		["resId"] = 3,
+		["skill"] = {
+			30093102,
+		},
+		["tag"] = "AOT_tag_3",
+	},
+	[4] = {
+		["id"] = 4,
+		["name"] = "AOT_name_4",
+		["resId"] = 4,
+		["skill"] = {
+			30094102,
+		},
+		["tag"] = "AOT_tag_4",
+	},
+}
+local baseTable = 
+{}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

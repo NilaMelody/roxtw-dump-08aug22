@@ -1,0 +1,33 @@
+return
+{
+    [1]={
+        ["id"]=1,
+        ["itemId"]=10217125,
+        ["requirement"]=1,
+        ["taskid"]=50061101
+    },
+    [2]={
+        ["id"]=2,
+        ["itemId"]=10217125,
+        ["requirement"]=2,
+        ["taskid"]=50062101
+    },
+    [3]={
+        ["id"]=3,
+        ["itemId"]=10217125,
+        ["requirement"]=4,
+        ["taskid"]=50063101
+    },
+    [4]={
+        ["id"]=4,
+        ["itemId"]=10217125,
+        ["requirement"]=7,
+        ["taskid"]=50065101
+    },
+    [5]={
+        ["id"]=5,
+        ["itemId"]=10217125,
+        ["requirement"]=10,
+        ["taskid"]=50064101
+    }
+}

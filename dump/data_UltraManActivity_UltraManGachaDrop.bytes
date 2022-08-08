@@ -1,0 +1,200 @@
+local table = {
+	[1] = {
+		["Name"] = "A赏 -xx",
+		["RewardDrop"] = {
+			["IsBind"] = 1,
+			["amount"] = 1,
+			["staticId"] = 10219356,
+			["type"] = 5,
+		},
+		["RewardType"] = 1,
+		["id"] = 1,
+	},
+	[2] = {
+		["Name"] = "A赏 -xx",
+		["RewardDrop"] = {
+			["IsBind"] = 1,
+			["amount"] = 1,
+			["staticId"] = 10219356,
+			["type"] = 5,
+		},
+		["RewardType"] = 1,
+		["id"] = 2,
+	},
+	[3] = {
+		["Name"] = "A赏 -xx",
+		["RewardDrop"] = {
+			["IsBind"] = 1,
+			["amount"] = 1,
+			["staticId"] = 10219356,
+			["type"] = 5,
+		},
+		["RewardType"] = 1,
+		["id"] = 3,
+	},
+	[4] = {
+		["RewardDrop"] = {
+			["IsBind"] = 1,
+			["amount"] = 1,
+			["staticId"] = 10219164,
+			["type"] = 5,
+		},
+		["id"] = 4,
+	},
+	[5] = {
+		["RewardDrop"] = {
+			["IsBind"] = 1,
+			["amount"] = 1,
+			["staticId"] = 10219164,
+			["type"] = 5,
+		},
+		["id"] = 5,
+	},
+	[6] = {
+		["RewardDrop"] = {
+			["IsBind"] = 1,
+			["amount"] = 1,
+			["staticId"] = 10219164,
+			["type"] = 5,
+		},
+		["id"] = 6,
+	},
+	[7] = {
+		["RewardDrop"] = {
+			["IsBind"] = 1,
+			["amount"] = 1,
+			["staticId"] = 10219164,
+			["type"] = 5,
+		},
+		["id"] = 7,
+	},
+	[8] = {
+		["CellRewardAmount"] = 99,
+		["Name"] = "C赏 -xx",
+		["RewardDrop"] = {
+			["IsBind"] = 1,
+			["amount"] = 1,
+			["staticId"] = 10211001,
+			["type"] = 5,
+		},
+		["RewardType"] = 3,
+		["id"] = 8,
+	},
+	[9] = {
+		["CellRewardAmount"] = 99,
+		["Name"] = "C赏 -xx",
+		["RewardDrop"] = {
+			["IsBind"] = 1,
+			["amount"] = 1,
+			["staticId"] = 10211007,
+			["type"] = 5,
+		},
+		["RewardType"] = 3,
+		["id"] = 9,
+	},
+	[10] = {
+		["CellRewardAmount"] = 99,
+		["Name"] = "C赏 -xx",
+		["RewardDrop"] = {
+			["IsBind"] = 1,
+			["amount"] = 1,
+			["staticId"] = 10211013,
+			["type"] = 5,
+		},
+		["RewardType"] = 3,
+		["id"] = 10,
+	},
+	[11] = {
+		["CellRewardAmount"] = 99,
+		["Name"] = "D赏 -xx",
+		["RewardDrop"] = {
+			["IsBind"] = 1,
+			["amount"] = 1,
+			["staticId"] = 10211002,
+			["type"] = 5,
+		},
+		["RewardType"] = 4,
+		["id"] = 11,
+	},
+	[12] = {
+		["CellRewardAmount"] = 99,
+		["Name"] = "D赏 -xx",
+		["RewardDrop"] = {
+			["IsBind"] = 1,
+			["amount"] = 1,
+			["staticId"] = 10211008,
+			["type"] = 5,
+		},
+		["RewardType"] = 4,
+		["id"] = 12,
+	},
+	[13] = {
+		["CellRewardAmount"] = 99,
+		["Name"] = "D赏 -xx",
+		["RewardDrop"] = {
+			["IsBind"] = 1,
+			["amount"] = 1,
+			["staticId"] = 10211014,
+			["type"] = 5,
+		},
+		["RewardType"] = 4,
+		["id"] = 13,
+	},
+	[14] = {
+		["CellRewardAmount"] = 99,
+		["Name"] = "D赏 -xx",
+		["RewardDrop"] = {
+			["IsBind"] = 1,
+			["amount"] = 1,
+			["staticId"] = 10211003,
+			["type"] = 5,
+		},
+		["RewardType"] = 4,
+		["id"] = 14,
+	},
+	[15] = {
+		["Name"] = "SP赏 -xx",
+		["RewardDrop"] = {
+			["IsBind"] = 0,
+			["amount"] = 1,
+			["staticId"] = 4109999,
+			["type"] = 4,
+		},
+		["RewardType"] = 5,
+		["id"] = 15,
+	},
+	[16] = {
+		["Name"] = "SP赏 -xx",
+		["RewardDrop"] = {
+			["IsBind"] = 0,
+			["amount"] = 1,
+			["staticId"] = 4109999,
+			["type"] = 4,
+		},
+		["RewardType"] = 5,
+		["id"] = 16,
+	},
+	[17] = {
+		["Name"] = "SP赏 -xx",
+		["RewardDrop"] = {
+			["IsBind"] = 0,
+			["amount"] = 1,
+			["staticId"] = 4109999,
+			["type"] = 4,
+		},
+		["RewardType"] = 5,
+		["id"] = 17,
+	},
+}
+local baseTable = 
+{
+	["CellRewardAmount"] = 1,
+	["DropWeight"] = 1,
+	["Name"] = "B赏 -xx",
+	["RefreshWeight"] = 5,
+	["RewardType"] = 2,
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

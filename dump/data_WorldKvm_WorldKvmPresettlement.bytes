@@ -1,0 +1,48 @@
+local table = {
+	[1] = {
+		["dropId"] = 109000504,
+		["id"] = 1,
+		["mailId"] = 16021,
+		["max"] = 150,
+		["min"] = 1,
+		["rankName"] = "worldKVM2_rule_020C",
+		["score"] = 4,
+	},
+	[2] = {
+		["dropId"] = 109000501,
+		["id"] = 2,
+		["mailId"] = 16022,
+		["max"] = 540,
+		["min"] = 151,
+		["rankName"] = "worldKVM2_rule_020E",
+		["score"] = 6,
+	},
+	[3] = {
+		["dropId"] = 109000502,
+		["iconPath"] = "Icons/CrossRegionKVM/Img_Rank2",
+		["id"] = 3,
+		["mailId"] = 16023,
+		["max"] = 840,
+		["min"] = 541,
+		["rankName"] = "worldKVM2_rule_020G",
+		["score"] = 8,
+	},
+	[4] = {
+		["dropId"] = 109000503,
+		["iconPath"] = "Icons/CrossRegionKVM/Img_Rank3",
+		["id"] = 4,
+		["mailId"] = 16024,
+		["max"] = 9999,
+		["min"] = 841,
+		["rankName"] = "worldKVM2_rule_020I",
+		["score"] = 10,
+	},
+}
+local baseTable = 
+{
+	["iconPath"] = "Icons/CrossRegionKVM/Img_Rank1",
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

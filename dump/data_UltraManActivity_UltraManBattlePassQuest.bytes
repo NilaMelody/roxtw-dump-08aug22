@@ -1,0 +1,22 @@
+local table = {
+	[1] = {
+		["Day"] = 0,
+		["Drop"] = 0,
+		["Exp"] = 20,
+		["JoinType"] = 1,
+		["JoinTypeParameter"] = 11709999,
+		["TargetParameter"] = 1,
+		["TargetType"] = 8,
+		["TaskDesc"] = "UltraManBattlePassDesc_1",
+		["TaskName"] = "UltraManBattlePassName_1",
+		["Times"] = 1,
+		["Type"] = 1,
+		["id"] = 1,
+	},
+}
+local baseTable = 
+{}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

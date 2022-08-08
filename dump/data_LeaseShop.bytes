@@ -1,0 +1,291 @@
+local table = {
+	[1] = {
+		["ItemID"] = 80001,
+		["Name"] = "坐骑-大嘴鸟",
+		["id"] = 1,
+		["jobLimit"] = {
+			1110,
+			1111,
+			1112,
+			1120,
+			1121,
+			1122,
+		},
+		["npcID"] = 10104103,
+	},
+	[2] = {
+		["ItemID"] = 80003,
+		["Name"] = "坐骑-九尾狐",
+		["NumID"] = 2,
+		["id"] = 2,
+		["jobLimit"] = {
+			1310,
+			1311,
+			1312,
+			1322,
+			1320,
+			1321,
+		},
+	},
+	[3] = {
+		["CostCurrencyID"] = 1,
+		["CostNum"] = 10000,
+		["ItemID"] = 83001,
+		["Name"] = "猎人-猎鹰",
+		["id"] = 3,
+		["jobLimit"] = {
+			1510,
+			1511,
+			1512,
+		},
+		["leaseShop"] = 2,
+		["npcID"] = 0,
+		["skillLimit"] = {
+			1510122,
+		},
+		["skillLvLimit"] = {
+			1,
+		},
+	},
+	[4] = {
+		["CostCurrencyID"] = 1,
+		["CostNum"] = 10000,
+		["ItemID"] = 83010,
+		["Name"] = "商人-手推车",
+		["id"] = 4,
+		["jobLimit"] = {
+			1600,
+			1610,
+			1611,
+			1612,
+		},
+		["leaseShop"] = 2,
+		["npcID"] = 10101027,
+		["skillLimit"] = {
+			1600004,
+		},
+		["skillLvLimit"] = {
+			1,
+		},
+	},
+	[5] = {
+		["CostCurrencyID"] = 1,
+		["CostNum"] = 10000,
+		["ItemID"] = 83011,
+		["Name"] = "商人-木制手推车",
+		["id"] = 5,
+		["jobLimit"] = {
+			1600,
+			1610,
+			1611,
+			1612,
+		},
+		["leaseShop"] = 2,
+		["npcID"] = 10101027,
+		["skillLimit"] = {
+			1600004,
+		},
+		["skillLvLimit"] = {
+			1,
+		},
+	},
+	[6] = {
+		["ItemID"] = 80002,
+		["Name"] = "坐骑-羊驼",
+		["NumID"] = 3,
+		["id"] = 6,
+		["jobLimit"] = {
+			1210,
+			1211,
+			1212,
+			1220,
+			1221,
+			1222,
+		},
+	},
+	[7] = {
+		["ItemID"] = 80007,
+		["Name"] = "坐骑-鸵鸟",
+		["NumID"] = 4,
+		["id"] = 7,
+		["jobLimit"] = {
+			1510,
+			1511,
+			1512,
+			1520,
+			1521,
+			1522,
+			1530,
+			1531,
+			1532,
+		},
+	},
+	[8] = {
+		["ItemID"] = 80006,
+		["Name"] = "坐骑-斑鬣",
+		["NumID"] = 5,
+		["id"] = 8,
+		["jobLimit"] = {
+			1410,
+			1411,
+			1412,
+		},
+	},
+	[9] = {
+		["ItemID"] = 80009,
+		["Name"] = "坐骑-野猪",
+		["NumID"] = 6,
+		["id"] = 9,
+		["jobLimit"] = {
+			1610,
+			1611,
+			1612,
+		},
+	},
+	[10] = {
+		["ItemID"] = 80032,
+		["Name"] = "坐骑-地龙",
+		["NumID"] = 7,
+		["id"] = 10,
+		["jobLimit"] = {
+			1112,
+		},
+		["skillLimit"] = {
+			1112001,
+		},
+		["skillLvLimit"] = {
+			1,
+		},
+	},
+	[11] = {
+		["ItemID"] = 80034,
+		["Name"] = "坐骑-狼",
+		["NumID"] = 8,
+		["id"] = 11,
+		["jobLimit"] = {
+			1512,
+		},
+		["skillLimit"] = {
+			1512001,
+		},
+		["skillLvLimit"] = {
+			1,
+		},
+	},
+	[12] = {
+		["ItemID"] = 80038,
+		["Name"] = "坐骑-原始机甲",
+		["NumID"] = 9,
+		["id"] = 12,
+		["jobLimit"] = {
+			1612,
+		},
+		["leaseSubtType"] = 2,
+		["skillLimit"] = {
+			1612001,
+		},
+		["skillLvLimit"] = {
+			1,
+		},
+	},
+	[13] = {
+		["ConditionId"] = 1124,
+		["ItemID"] = 80080,
+		["LockDes"] = "PumpkinMechaUnlock",
+		["Name"] = "坐骑-2021万圣机甲",
+		["NumID"] = 10,
+		["UnlockItemNum"] = 1,
+		["UnlockNum"] = 10219121,
+		["UnlockType"] = 3,
+		["id"] = 13,
+		["jobLimit"] = {
+			1612,
+		},
+		["leaseSubtType"] = 2,
+		["skillLimit"] = {
+			1612001,
+		},
+		["skillLvLimit"] = {
+			1,
+		},
+	},
+	[14] = {
+		["ConditionId"] = 1132,
+		["ItemID"] = 80084,
+		["LockDes"] = "ChristmasMechaUnlock",
+		["Name"] = "坐骑-2021圣诞机甲",
+		["NumID"] = 11,
+		["UnlockItemNum"] = 1,
+		["UnlockNum"] = 10216088,
+		["UnlockType"] = 3,
+		["id"] = 14,
+		["jobLimit"] = {
+			1612,
+		},
+		["leaseSubtType"] = 2,
+		["skillLimit"] = {
+			1612001,
+		},
+		["skillLvLimit"] = {
+			1,
+		},
+	},
+	[15] = {
+		["ConditionId"] = 1133,
+		["ItemID"] = 80089,
+		["LockDes"] = "MechaUnlock1",
+		["Name"] = "坐骑-2022新年机甲",
+		["NumID"] = 11,
+		["UnlockItemNum"] = 1,
+		["UnlockNum"] = 10912016,
+		["UnlockType"] = 3,
+		["id"] = 15,
+		["jobLimit"] = {
+			1612,
+		},
+		["leaseSubtType"] = 2,
+		["skillLimit"] = {
+			1612001,
+		},
+		["skillLvLimit"] = {
+			1,
+		},
+	},
+	[16] = {
+		["ItemID"] = 80036,
+		["Name"] = "坐骑-狮鹫",
+		["NumID"] = 8,
+		["id"] = 16,
+		["jobLimit"] = {
+			1122,
+		},
+		["skillLimit"] = {
+			1122001,
+		},
+		["skillLvLimit"] = {
+			1,
+		},
+	},
+}
+local baseTable = 
+{
+	["ConditionId"] = 0,
+	["CostCurrencyID"] = 3,
+	["CostNum"] = 20000,
+	["HiddenCondition"] = 0,
+	["IsHidden"] = 0,
+	["LockDes"] = "",
+	["NumID"] = 1,
+	["UnlockItemNum"] = 0,
+	["UnlockNum"] = 0,
+	["UnlockType"] = 0,
+	["leaseShop"] = 1,
+	["leaseSubtType"] = 1,
+	["npcID"] = 10104104,
+	["skillLimit"] = {},
+	["skillLvLimit"] = {},
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

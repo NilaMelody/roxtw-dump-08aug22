@@ -1,0 +1,42 @@
+return
+{
+    [1]={
+        ["id"]=1,
+        ["logicName"]="TestLogicA",
+        ["useScenes"]={
+            1010,
+            1020
+        }
+    },
+    [2]={
+        ["id"]=2,
+        ["logicName"]="TestLogicB",
+        ["useScenes"]={
+            1010
+        }
+    },
+    [3]={
+        ["id"]=3,
+        ["logicName"]="ChildrensDayModel",
+        ["useScenes"]={
+            8168,
+            1020
+        }
+    },
+    [4]={
+        ["id"]=4,
+        ["logicName"]="GiantLogicModel",
+        ["useScenes"]={
+            8169,
+            8170
+        }
+    },
+    [5]={
+        ["id"]=5,
+        ["logicName"]="FlyingDragonModel",
+        ["useScenes"]={
+            2090,
+            2091
+        }
+    }
+}

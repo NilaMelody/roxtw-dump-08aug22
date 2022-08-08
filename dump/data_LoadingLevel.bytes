@@ -1,0 +1,72 @@
+local table = {
+	[1] = {
+		["LoadingId"] = {
+			49,
+			51,
+		},
+		["MaxLevel"] = 14,
+		["MinLevel"] = 1,
+	},
+	[2] = {
+		["LoadingId"] = {
+			49,
+			51,
+		},
+		["MaxLevel"] = 24,
+		["MinLevel"] = 15,
+	},
+	[3] = {
+		["LoadingId"] = {
+			49,
+			51,
+		},
+		["MaxLevel"] = 39,
+		["MinLevel"] = 25,
+	},
+	[4] = {
+		["LoadingId"] = {
+			49,
+			51,
+		},
+		["MaxLevel"] = 49,
+		["MinLevel"] = 40,
+	},
+	[5] = {
+		["LoadingId"] = {
+			49,
+			51,
+		},
+		["MaxLevel"] = 59,
+		["MinLevel"] = 50,
+	},
+	[6] = {
+		["LoadingId"] = {
+			49,
+			51,
+		},
+		["MaxLevel"] = 69,
+		["MinLevel"] = 60,
+	},
+	[7] = {
+		["LoadingId"] = {
+			49,
+			51,
+		},
+		["MaxLevel"] = 80,
+		["MinLevel"] = 70,
+	},
+	[8] = {
+		["LoadingId"] = {
+			49,
+			51,
+		},
+		["MaxLevel"] = 999,
+		["MinLevel"] = 81,
+	},
+}
+local baseTable = 
+{}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

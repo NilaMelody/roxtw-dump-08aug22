@@ -1,0 +1,106 @@
+local table = {
+	[1] = {
+		["id"] = 1,
+		["optionLid"] = {
+			"AdventureQuestion10_1A",
+			"AdventureQuestion10_1B",
+			"AdventureQuestion10_1C",
+			"AdventureQuestion10_1D",
+		},
+		["questionLid"] = "AdventureQuestion10_1",
+	},
+	[2] = {
+		["answerIndex"] = 3,
+		["id"] = 2,
+		["optionLid"] = {
+			"AdventureQuestion10_2A",
+			"AdventureQuestion10_2B",
+			"AdventureQuestion10_2C",
+			"AdventureQuestion10_2D",
+		},
+		["questionLid"] = "AdventureQuestion10_2",
+	},
+	[3] = {
+		["answerIndex"] = 2,
+		["id"] = 3,
+		["optionLid"] = {
+			"AdventureQuestion10_3A",
+			"AdventureQuestion10_3B",
+			"AdventureQuestion10_3C",
+			"AdventureQuestion10_3D",
+		},
+		["questionLid"] = "AdventureQuestion10_3",
+	},
+	[4] = {
+		["answerIndex"] = 4,
+		["id"] = 4,
+		["optionLid"] = {
+			"AdventureQuestion10_4A",
+			"AdventureQuestion10_4B",
+			"AdventureQuestion10_4C",
+			"AdventureQuestion10_4D",
+		},
+		["questionLid"] = "AdventureQuestion10_4",
+	},
+	[5] = {
+		["id"] = 5,
+		["optionLid"] = {
+			"AdventureQuestion10_5A",
+			"AdventureQuestion10_5B",
+			"AdventureQuestion10_5C",
+			"AdventureQuestion10_5D",
+		},
+		["questionLid"] = "AdventureQuestion10_5",
+	},
+	[6] = {
+		["answerIndex"] = 2,
+		["id"] = 6,
+		["optionLid"] = {
+			"AdventureQuestion10_6A",
+			"AdventureQuestion10_6B",
+			"AdventureQuestion10_6C",
+			"AdventureQuestion10_6D",
+		},
+		["questionLid"] = "AdventureQuestion10_6",
+	},
+	[7] = {
+		["answerIndex"] = 4,
+		["id"] = 7,
+		["optionLid"] = {
+			"AdventureQuestion10_7A",
+			"AdventureQuestion10_7B",
+			"AdventureQuestion10_7C",
+			"AdventureQuestion10_7D",
+		},
+		["questionLid"] = "AdventureQuestion10_7",
+	},
+	[8] = {
+		["answerIndex"] = 4,
+		["id"] = 8,
+		["optionLid"] = {
+			"AdventureQuestion10_8A",
+			"AdventureQuestion10_8B",
+			"AdventureQuestion10_8C",
+			"AdventureQuestion10_8D",
+		},
+		["questionLid"] = "AdventureQuestion10_8",
+	},
+	[9] = {
+		["id"] = 9,
+		["optionLid"] = {
+			"AdventureQuestion10_9A",
+			"AdventureQuestion10_9B",
+			"AdventureQuestion10_9C",
+			"AdventureQuestion10_9D",
+		},
+		["questionLid"] = "AdventureQuestion10_9",
+	},
+}
+local baseTable = 
+{
+	["answerIndex"] = 1,
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

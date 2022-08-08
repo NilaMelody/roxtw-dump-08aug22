@@ -1,0 +1,15 @@
+return
+{
+    ["EachCellAmount"]="1,1,3,3",
+    ["GachaNeedItemId"]=10204046,
+    ["GachaNpc"]=10101111,
+    ["HiddenRewardProbability"]="1,10000",
+    ["RefreshExpendDiamond"]=1000,
+    ["SingleDrawNeedAmount"]=10,
+    ["StrikeGachaHiddenRewardAmount"]=10,
+    ["StrikeGachaNeedPoint"]=20000,
+    ["StrikeGachaTime"]=14400,
+    ["StrikeHiddenRewardExtractAmount"]=1,
+    ["StrikeHiddenRewardProbability"]="1,10000",
+    ["TenDrawNeedAmount"]=90
+}

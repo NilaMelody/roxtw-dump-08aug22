@@ -1,0 +1,26 @@
+local table = {
+	[1] = {
+		["AdditionalDamage"] = 0.08,
+		["activityLevel"] = 1,
+	},
+	[2] = {
+		["AdditionalDamage"] = 0.16,
+		["activityLevel"] = 2,
+	},
+	[3] = {
+		["AdditionalDamage"] = 0.24,
+		["activityLevel"] = 3,
+	},
+	[4] = {
+		["AdditionalDamage"] = 0.36,
+		["activityLevel"] = 4,
+	},
+}
+local baseTable = 
+{
+	["baseLevel"] = 110,
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

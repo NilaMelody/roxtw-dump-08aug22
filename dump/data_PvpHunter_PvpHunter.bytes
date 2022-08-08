@@ -1,0 +1,67 @@
+local table = {
+	[1] = {
+		["Max"] = 49,
+		["RankName"] = "PvpHunter_001",
+		["id"] = 1,
+		["reward"] = 0,
+	},
+	[2] = {
+		["Max"] = 99,
+		["RankName"] = "PvpHunter_001",
+		["id"] = 2,
+		["min"] = 50,
+	},
+	[3] = {
+		["Max"] = 249,
+		["Rank"] = 2,
+		["RankName"] = "PvpHunter_002",
+		["icon"] = "Grade_shushou",
+		["id"] = 3,
+		["min"] = 100,
+		["reward"] = 10554,
+	},
+	[4] = {
+		["Max"] = 499,
+		["Rank"] = 3,
+		["RankName"] = "PvpHunter_003",
+		["icon"] = "Grade_douzhe",
+		["id"] = 4,
+		["min"] = 250,
+		["reward"] = 10555,
+	},
+	[5] = {
+		["Max"] = 749,
+		["Rank"] = 4,
+		["RankName"] = "PvpHunter_004",
+		["icon"] = "Grade_yongshi",
+		["id"] = 5,
+		["min"] = 500,
+		["reward"] = 10556,
+	},
+	[6] = {
+		["Max"] = 50000,
+		["Rank"] = 5,
+		["icon"] = "Grade_dashi",
+		["id"] = 6,
+		["min"] = 750,
+		["reward"] = 10557,
+	},
+	[99] = {
+		["Max"] = 0,
+		["Rank"] = 99,
+		["icon"] = "",
+		["id"] = 99,
+	},
+}
+local baseTable = 
+{
+	["Rank"] = 1,
+	["RankName"] = "PvpHunter_005",
+	["icon"] = "Grade_menxin",
+	["min"] = 0,
+	["reward"] = 10553,
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

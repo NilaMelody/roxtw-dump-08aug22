@@ -1,0 +1,277 @@
+local table = {
+	[1] = {
+		["Description"] = "SEA_YearMemoirDes_001",
+		["ShowType"] = 3,
+		["Type"] = {
+			1,
+			23,
+		},
+		["id"] = 1,
+	},
+	[2] = {
+		["Description"] = "SEA_YearMemoirDes_002",
+		["ShowType"] = 2,
+		["Type"] = {
+			2,
+		},
+		["id"] = 2,
+	},
+	[3] = {
+		["Description"] = "SEA_YearMemoirDes_003",
+		["ShowType"] = 3,
+		["Type"] = {
+			3,
+		},
+		["id"] = 3,
+	},
+	[4] = {
+		["Description"] = "SEA_YearMemoirDes_004",
+		["ShowType"] = 2,
+		["Type"] = {
+			24,
+		},
+		["id"] = 4,
+	},
+	[5] = {
+		["Description"] = "SEA_YearMemoirDes_005",
+		["ShowType"] = 2,
+		["Type"] = {
+			25,
+		},
+		["id"] = 5,
+	},
+	[6] = {
+		["Description"] = "SEA_YearMemoirDes_006",
+		["ShowType"] = 2,
+		["Type"] = {
+			26,
+		},
+		["id"] = 6,
+	},
+	[7] = {
+		["Description"] = "SEA_YearMemoirDes_021",
+		["ShowGroup"] = 1,
+		["SpecialDescription"] = "SEA_YearMemoirDes_031",
+		["id"] = 7,
+	},
+	[8] = {
+		["Description"] = "SEA_YearMemoirDes_022",
+		["IfDataZero"] = 1,
+		["ShowGroup"] = 1,
+		["Type"] = {
+			27,
+			29,
+			31,
+		},
+		["id"] = 8,
+	},
+	[9] = {
+		["Description"] = "SEA_YearMemoirDes_041",
+		["ShowGroup"] = 2,
+		["SpecialDescription"] = "SEA_YearMemoirDes_051",
+		["id"] = 9,
+	},
+	[10] = {
+		["Description"] = "SEA_YearMemoirDes_042",
+		["IfDataZero"] = 1,
+		["ShowGroup"] = 2,
+		["Type"] = {
+			7,
+		},
+		["id"] = 10,
+	},
+	[11] = {
+		["Description"] = "SEA_YearMemoirDes_043",
+		["ShowGroup"] = 2,
+		["Type"] = {
+			33,
+		},
+		["id"] = 11,
+	},
+	[12] = {
+		["Description"] = "SEA_YearMemoirDes_044",
+		["ShowType"] = 3,
+		["Type"] = {
+			34,
+		},
+		["id"] = 12,
+	},
+	[13] = {
+		["Description"] = "SEA_YearMemoirDes_045",
+		["ShowType"] = 2,
+		["Type"] = {
+			35,
+		},
+		["id"] = 13,
+	},
+	[14] = {
+		["Description"] = "SEA_YearMemoirDes_061",
+		["ShowGroup"] = 3,
+		["SpecialDescription"] = "SEA_YearMemoirDes_071",
+		["id"] = 14,
+	},
+	[15] = {
+		["Description"] = "SEA_YearMemoirDes_062",
+		["IfDataZero"] = 1,
+		["ShowGroup"] = 3,
+		["Type"] = {
+			36,
+		},
+		["id"] = 15,
+	},
+	[16] = {
+		["Description"] = "SEA_YearMemoirDes_063",
+		["ShowType"] = 2,
+		["Type"] = {
+			38,
+			39,
+		},
+		["id"] = 16,
+	},
+	[17] = {
+		["Description"] = "SEA_YearMemoirDes_064",
+		["ShowType"] = 2,
+		["Type"] = {
+			53,
+			54,
+		},
+		["id"] = 17,
+	},
+	[18] = {
+		["Description"] = "SEA_YearMemoirDes_065",
+		["ShowType"] = 2,
+		["Type"] = {
+			10,
+		},
+		["id"] = 18,
+	},
+	[19] = {
+		["Description"] = "SEA_YearMemoirDes_081",
+		["ShowGroup"] = 4,
+		["SpecialDescription"] = "SEA_YearMemoirDes_091",
+		["id"] = 19,
+	},
+	[20] = {
+		["DataManage"] = 1,
+		["Description"] = "SEA_YearMemoirDes_082",
+		["IfDataZero"] = 1,
+		["ShowGroup"] = 4,
+		["Type"] = {
+			14,
+			15,
+		},
+		["id"] = 20,
+	},
+	[21] = {
+		["Description"] = "SEA_YearMemoirDes_083",
+		["ShowGroup"] = 4,
+		["Type"] = {
+			16,
+		},
+		["id"] = 21,
+	},
+	[22] = {
+		["Description"] = "SEA_YearMemoirDes_084",
+		["ShowGroup"] = 4,
+		["Type"] = {
+			17,
+			18,
+		},
+		["id"] = 22,
+	},
+	[23] = {
+		["Description"] = "SEA_YearMemoirDes_101",
+		["ShowType"] = 3,
+		["id"] = 23,
+	},
+	[24] = {
+		["Description"] = "SEA_YearMemoirDes_102",
+		["ShowType"] = 3,
+		["Type"] = {
+			45,
+			44,
+		},
+		["id"] = 24,
+	},
+	[25] = {
+		["Description"] = "SEA_YearMemoirDes_103",
+		["ShowType"] = 3,
+		["Type"] = {
+			49,
+			48,
+		},
+		["id"] = 25,
+	},
+	[26] = {
+		["Description"] = "SEA_YearMemoirDes_104",
+		["ShowType"] = 3,
+		["Type"] = {
+			47,
+			46,
+		},
+		["id"] = 26,
+	},
+	[27] = {
+		["Description"] = "SEA_YearMemoirDes_105",
+		["IfDataZero"] = 1,
+		["ShowGroup"] = 5,
+		["SpecialDescription"] = "SEA_YearMemoirDes_111",
+		["Type"] = {
+			50,
+			51,
+		},
+		["id"] = 27,
+	},
+	[28] = {
+		["Description"] = "SEA_YearMemoirDes_106",
+		["ShowGroup"] = 5,
+		["Type"] = {
+			52,
+		},
+		["id"] = 28,
+	},
+	[29] = {
+		["Description"] = "SEA_YearMemoirShareDes_001",
+		["Page"] = 2,
+		["ShowType"] = 3,
+		["Type"] = {
+			1,
+			23,
+		},
+		["id"] = 29,
+	},
+	[30] = {
+		["Description"] = "SEA_YearMemoirShareDes_003",
+		["Page"] = 2,
+		["ShowType"] = 3,
+		["Type"] = {
+			7,
+			34,
+		},
+		["id"] = 30,
+	},
+	[31] = {
+		["Description"] = "SEA_YearMemoirShareDes_004",
+		["Page"] = 2,
+		["ShowType"] = 3,
+		["Type"] = {
+			10,
+		},
+		["id"] = 31,
+	},
+}
+local baseTable = 
+{
+	["DataManage"] = 0,
+	["IfDataZero"] = 0,
+	["IfDisable"] = 0,
+	["Page"] = 1,
+	["ShowGroup"] = 0,
+	["ShowType"] = 1,
+	["SpecialDescription"] = "",
+	["Type"] = {},
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

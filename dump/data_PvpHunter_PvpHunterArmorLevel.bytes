@@ -1,0 +1,50 @@
+local table = {
+	[30] = {
+		["ArmorStrengthLevel"] = 30,
+		["armorLevel"] = 0,
+		["buffId"] = 1106,
+		["buffLayer"] = 0,
+		["enchantmentsLevel"] = 4,
+		["jewelryStrengthLevel"] = 20,
+		["refineLevel"] = 4,
+		["weaponStrengthLevel"] = 100,
+	},
+	[80] = {
+		["ArmorStrengthLevel"] = 80,
+		["armorLevel"] = 1,
+		["buffId"] = 1107,
+		["buffLayer"] = 1,
+		["enchantmentsLevel"] = 9,
+		["jewelryStrengthLevel"] = 40,
+		["refineLevel"] = 9,
+		["weaponStrengthLevel"] = 160,
+	},
+	[95] = {
+		["ArmorStrengthLevel"] = 110,
+		["armorLevel"] = 3,
+		["buffId"] = 1109,
+		["buffLayer"] = 3,
+		["enchantmentsLevel"] = 15,
+		["jewelryStrengthLevel"] = 55,
+		["refineLevel"] = 15,
+		["weaponStrengthLevel"] = 220,
+	},
+	[110] = {
+		["ArmorStrengthLevel"] = 95,
+		["armorLevel"] = 2,
+		["buffId"] = 1108,
+		["buffLayer"] = 2,
+		["enchantmentsLevel"] = 12,
+		["jewelryStrengthLevel"] = 48,
+		["refineLevel"] = 12,
+		["weaponStrengthLevel"] = 190,
+	},
+}
+local baseTable = 
+{
+	["AdditionalDamage"] = 0,
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

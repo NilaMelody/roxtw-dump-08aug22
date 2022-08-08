@@ -1,0 +1,36 @@
+local table = {
+	[1] = {
+		["ActivityType"] = 45,
+		["AdvancedPassDiamond"] = 4888,
+		["AllDailyQuestResetTimes"] = 2,
+		["BattlePassOverdueRewardMail"] = 2601,
+		["DailyQuestAmount"] = 5,
+		["GiftPackageBuyTimesLimit"] = 1,
+		["GiftPackageDiamond"] = 24388,
+		["Id"] = 1,
+		["LevelDiscount"] = {
+			30,
+			50,
+		},
+		["LevelDiscountNum"] = {},
+		["LevelDiscountOriginPrice"] = {
+			36000,
+			60000,
+		},
+		["LevelDiscountPrice"] = {
+			32400,
+			48000,
+		},
+		["MaxLevel"] = 50,
+		["NewUserJudgeTime"] = 3,
+		["PerLevelExp"] = 200,
+		["PerLevelUpDiamond"] = 1200,
+		["RegressUserJudgeTime"] = 7,
+	},
+}
+local baseTable = 
+{}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;
